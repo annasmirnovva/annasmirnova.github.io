@@ -1,4 +1,44 @@
-h1 {
-  color: red;
-  font-size: 100px;
+.headerimage,
+.mainimage {
+  display: block;
+  height: 100px; /*define size*/
+  margin: 0 auto;
+}
+
+.mainimage {
+  height: initial;
+}
+
+.menulinks {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.menulinks li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  list-style: none;
+  text-align: center;
+}
+
+.container__grid {
+  width: 100%;
+}
+
+.grid__row {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.row__col {
+  width: 33%;
+}
+
+.row__col img {
+  width: 100%;
 }
