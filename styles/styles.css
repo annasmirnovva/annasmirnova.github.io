@@ -2,8 +2,9 @@
 .mainimage {
   display: block;
   height: 100px; /*define size*/
-  margin: 0 auto;
+  margin: 10px auto;
   text-align: center;
+
 }
 
 .mainimage {
