@@ -15,18 +15,16 @@
   margin: 0 auto;
   text-align: center;
   width: 100%;
-
+  text-decoration: line-through;;
 }
 
 .menulinks li {
   margin: 0;
   padding: 0;
   display: inline;
-  list-style: none;
   text-align: center;
-  text-decoration: none;
-  color: red;
 }
+
 
 .container__grid {
   width: 100%;
@@ -46,4 +44,7 @@
 
 .row__col img {
   width: 100%;
+}
+p{
+  color:red;
 }
