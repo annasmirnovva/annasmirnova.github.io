@@ -15,7 +15,7 @@
   margin: 0 auto;
   text-align: center;
   width: 100%;
-  text-decoration: none;
+
 }
 
 .menulinks li {
@@ -24,6 +24,7 @@
   display: inline;
   list-style: none;
   text-align: center;
+  text-decoration: none;
 }
 
 .container__grid {
