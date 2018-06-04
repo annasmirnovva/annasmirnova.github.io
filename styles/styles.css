@@ -1,5 +1,6 @@
-* {
-  outline: 1px solid blue;
+
+body {
+  font-family: 'Dosis', sans-serif;
 }
 .container {
   width: 50%;
@@ -16,16 +17,36 @@
   display: flex;
   width: 100%;
   flex-direction: column;
+  margin-top: 3em;
 }
 .film {
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin: 1em 0 1em 0;
+  justify-content: space-between;
 }
 .showreel {
   max-width:100%;
+  margin-top: 4rem;
 }
 .minivideo {
-  max-width: 100%;
+  width: 50%;
+  height:auto;
+}
+.videodescription {
   margin: auto;
+  width: 50%;
+}
+h3 {
+  font-weight: bold;
+  margin: 0.3em;
+}
+.fullfilms iframe{
+  width: 270px;
+  align-self: center;
+}
+p {
+  margin: 0.3em;
+  margin-top: 1em;
 }
