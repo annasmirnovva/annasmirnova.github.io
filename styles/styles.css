@@ -1,4 +1,6 @@
-
+/** {
+  outline: 1px solid blue;
+}*/
 body {
   font-family: 'Dosis', sans-serif;
 }
@@ -17,7 +19,7 @@ body {
   display: flex;
   width: 100%;
   flex-direction: column;
-  margin-top: 3em;
+  margin-top: 1em;
 }
 .film {
   display: flex;
@@ -28,19 +30,23 @@ body {
 }
 .showreel {
   max-width:100%;
-  margin-top: 4rem;
 }
 .minivideo {
   width: 50%;
   height:auto;
 }
 .videodescription {
-  margin: auto;
   width: 50%;
+  margin: 0;
 }
 h3 {
   font-weight: bold;
-  margin: 0.3em;
+  margin: 0 0.3em;
+}
+h2 {
+  color: #f66eac;
+  font-size: 24px;
+  margin: 1em 0;
 }
 .fullfilms iframe{
   width: 270px;
@@ -49,4 +55,23 @@ h3 {
 p {
   margin: 0.3em;
   margin-top: 1em;
+}
+.header {
+  max-width: 100%;
+  height: auto;
+}
+.header img {
+  max-width: 90%;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1em;
+}
+a:link {
+  color:#59adec;
+}
+a:visited{
+  color: #dfdf23;
 }
