@@ -92,21 +92,15 @@ a:visited{
   }
   .fullfilms{
     align-self: center;
-    width: 100%;
-  }
-  .fullfilms iframe{
-    width: 100%;
-    height: auto;
-  }
-  .minivideo {
-    width: 100%;
-    margin: 0 auto;
-  }
-  .videodescription {
-    width: 100%;
+    width: 80%;
+    justify-content: center;
   }
   .fullfilms h2 {
     margin-left: 8.8em;
+  }
+  .minivideo iframe{
+    width: 270px;
+    height: auto;
   }
 
 }
