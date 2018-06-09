@@ -81,7 +81,7 @@ a:link {
 a:visited{
   color: #dfdf23;
 }
-@media only screen and (max-width:750px){
+@media only screen and (max-width:1920px){
   .container{
     width: 100%;
   }
@@ -118,5 +118,13 @@ a:visited{
   .container{
     width: 100%;
   }
-
+}
+@media only screen and (max-width:510px){
+  .showreel iframe {
+    margin: -3em 0;
+}
+@media only screen and (max-width:430px){
+  .showreel iframe {
+    margin: -5em 0;
+  }
 }
