@@ -74,6 +74,8 @@ p {
   flex-direction: row;
   justify-content: space-around;
   margin: 1em;
+  width: 40%;
+  margin: 0 auto;
 }
 a:link {
   color:#59adec;
