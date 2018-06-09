@@ -5,7 +5,7 @@ body {
   font-family: 'Dosis', sans-serif;
 }
 .container {
-  width: 50%;
+  width: 70%;
   display: block;
   margin: auto;
 }
@@ -30,6 +30,12 @@ body {
 }
 .showreel {
   max-width:100%;
+}
+.showreel iframe {
+  width: 640px;
+  height: 360px;
+  margin: auto;
+  max-width: 100%;
 }
 .minivideo {
   width: 50%;
@@ -86,14 +92,13 @@ a:visited{
     align-self: center;
     width: 95%;
   }
+  .showreel iframe {
+    max-width: 100%;
+  }
 }
 @media only screen and (max-width:650px){
   .fullfilms iframe{
     width: 100%;
-  }
-  .showreel {
-    width: 100%;
-    margin: 0 auto;
   }
   .menu {
     width: 90%;
@@ -104,11 +109,14 @@ a:visited{
   .menu h2{
     margin-left: 1em;
   }
+  .showreel {
+    width: 95%;
+  }
   .showreel h2 {
-    margin-left: 2em;
+    justify-content: center;
   }
-  .showreel iframe{
+  .container{
     width: 100%;
-    margin: 0 auto;
   }
+
 }
