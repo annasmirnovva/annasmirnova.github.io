@@ -1,6 +1,6 @@
-* {
+/** {
   outline: 1px solid blue;
-}
+}*/
 body {
   font-family: 'Dosis', sans-serif;
 }
@@ -92,15 +92,28 @@ a:visited{
   }
   .fullfilms{
     align-self: center;
-    width: 60%;
+    width: 100%;
   }
-  .showreel iframe {
-    max-width: 100%;
+  .fullfilms iframe{
+    width: 100%;
+    height: auto;
   }
+  .minivideo {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .videodescription {
+    width: 100%;
+  }
+  .fullfilms h2 {
+    margin-left: 8.8em;
+  }
+
 }
 @media only screen and (max-width:650px){
   .fullfilms iframe{
-    width: 100%;
+    width: 150px;
+    height: auto;
   }
   .menu {
     width: 90%;
@@ -113,6 +126,7 @@ a:visited{
   }
   .showreel {
     width: 95%;
+    justify-content: center;
   }
   .showreel h2 {
     justify-content: center;
