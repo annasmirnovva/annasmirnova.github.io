@@ -95,12 +95,10 @@ a:visited{
     width: 80%;
     justify-content: center;
   }
-  .fullfilms h2 {
-    margin-left: 8.8em;
-  }
   .minivideo iframe{
     width: 270px;
     height: auto;
+    overflow: hidden;
   }
 
 }
