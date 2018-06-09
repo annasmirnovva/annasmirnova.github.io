@@ -1,6 +1,6 @@
-/** {
+* {
   outline: 1px solid blue;
-}*/
+}
 body {
   font-family: 'Dosis', sans-serif;
 }
@@ -74,4 +74,41 @@ a:link {
 }
 a:visited{
   color: #dfdf23;
+}
+@media only screen and (max-width:750px){
+  .container{
+    width: 100%;
+  }
+  h2{
+    font-size: 19px;
+  }
+  .fullfilms{
+    align-self: center;
+    width: 95%;
+  }
+}
+@media only screen and (max-width:650px){
+  .fullfilms iframe{
+    width: 100%;
+  }
+  .showreel {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .menu {
+    width: 90%;
+    font-size: 14px;
+    justify-content: center;
+    margin: 1em auto;
+  }
+  .menu h2{
+    margin-left: 1em;
+  }
+  .showreel h2 {
+    margin-left: 2em;
+  }
+  .showreel iframe{
+    width: 100%;
+    margin: 0 auto;
+  }
 }
